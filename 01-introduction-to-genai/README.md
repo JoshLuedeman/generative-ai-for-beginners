@@ -43,19 +43,19 @@ To start, let’s define some basic concepts and terminology we’ll be using th
 Despite the extraordinary _hype_ created lately by the announcement of generative AI models, this technology is decades in the making, with the first research efforts dating back to 60s. We're now at a point with AI having human cognitive capabilities, like conversation as shown by for example [OpenAI ChatGPT](https://openai.com/chatgpt) or [Bing Chat](https://www.microsoft.com/edge/features/bing-chat?WT.mc_id=academic-105485-koreyst), which also uses a GPT model for the web search Bing conversations.
 
 Backing up a bit, the very first prototypes of AI consisted of typewritten chatbots, relying on a knowledge base extracted from a group of experts and represented into a computer. The answers in the knowledge base were triggered by keywords appearing in the input text.
-However, it soon became clear that such approach, using typewritten chatbots, did not scale well.
+However, it soon became clear that such an approach, using typewritten chatbots, did not scale well.
 
 ### A statistical approach to AI: Machine Learning
 
-A turning point arrived during the 90s, with the application of a statistical approach to text analysis. This led to the development of new algorithms – known with the name of machine learning - able to learn patterns from data, without being explicitly programmed. This approach allows a machine to simulate human language understanding: a statistical model is trained on text-label pairings, enabling the model to classify unknown input text with a pre-defined label representing the intention of the message.
+A turning point arrived during the 90s, with the application of a statistical approach to text analysis. This led to the development of new algorithms – known as machine learning – capable of learning patterns from data without being explicitly programmed. This approach allows machines to simulate human language understanding: a statistical model is trained on text-label pairings, enabling the model to classify unknown input text with a pre-defined label representing the intention of the message.
 
 ### Neural networks and modern virtual assistants
 
-In more recent times, the technological evolution of the hardware, capable of handling larger amounts of data and more complex computations, encouraged research in the AI fields, leading to the development of advanced machine learning algorithms – called neural networks or deep learning algorithms.
+In recent years, the technological evolution of hardware, capable of handling larger amounts of data and more complex computations, encouraged research in AI, leading to the development of advanced machine learning algorithms known as neural networks or deep learning algorithms.
 
 Neural networks (and in particular Recurrent Neural Networks – RNNs) significantly enhanced natural language processing, enabling the representation of the meaning of text in a more meaningful way, valuing the context of a word in a sentence.
 
-This is the technology that powered the virtual assistants born in the first decade of the new century, very proficient in interpreting the human language, identifying a need, and performing an action to satisfy it – like answering with a pre-defined script or consuming a 3rd party service.
+This is the technology that powered the virtual assistants born in the first decade of the new century, very proficient in interpreting human language, identifying a need, and performing an action to satisfy it – like answering with a pre-defined script or consuming a 3rd party service.
 
 ### Present day, Generative AI
 
@@ -90,34 +90,24 @@ The input of a large language model is known as prompt, while the output is know
 - An **instruction** specifying the type of output we expect from the model. This instruction sometimes might embed some examples or some additional data.
 
   1. Summarization of an article, book, product reviews and more, along with extraction of insights from unstructured data.
-
-  ![Example of summarization](./images/summarization-example.png?WT.mc_id=academic-105485-koreyst)
-
-    <br>
     
-    2. Creative ideation and design of an article, an essay, an assignment or more.
-    
-    ![Example of creative writing](./images/creative-writing-example.png?WT.mc_id=academic-105485-koreyst)
-
-    <br>
+    ![Example of summarization](./images/summarization-example.png?WT.mc_id=academic-105485-koreyst)
+  
+  2. Creative ideation and design of an article, an essay, an assignment or more.
+      
+     ![Example of creative writing](./images/creative-writing-example.png?WT.mc_id=academic-105485-koreyst)
 
 - A **question**, asked in the form of a conversation with an agent.
-
-![Example of conversation](./images/conversation-example.png?WT.mc_id=academic-105485-koreyst)
-
-<br>
+  
+  ![Example of conversation](./images/conversation-example.png?WT.mc_id=academic-105485-koreyst)
 
 - A chunk of **text to complete**, which implicitly is an ask for writing assistance.
-
-![Example of text completion](./images/text-completion-example.png?WT.mc_id=academic-105485-koreyst)
-
-<br>
+  
+  ![Example of text completion](./images/text-completion-example.png?WT.mc_id=academic-105485-koreyst)
 
 - A chunk of **code** together with the ask of explaining and documenting it, or a comment asking to generate a piece of code performing a specific task.
-
-![Coding example](./images/coding-example.png?WT.mc_id=academic-105485-koreyst)
-
-<br>
+  
+  ![Coding example](./images/coding-example.png?WT.mc_id=academic-105485-koreyst)
 
 The examples above are quite simple and don’t want to be an exhaustive demonstration of Large Language Models capabilities. They just want to show the potential of using generative AI, in particular but not limited to educational context.
 

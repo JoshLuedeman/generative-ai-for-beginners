@@ -40,7 +40,7 @@ _생성형 AI_ 는 사용자의 요청에 응답하여 새로운 콘텐츠(예: 
 
 ## 우리 스타트업
 
-이제, _본 주제_ 가 우리 스타트업의 [교육에 AI 혁신을 가져오기](https://educationblog.microsoft.com/2023/06/collaborating-to-bring-ai-innovation-to-education?WT.mc_id=academic-105485-koreyst) 미션과 어떻게 관련되는지에 대해 이야기해보겠습니다. 우리는 _개인화된 학습_ (personalized learning)의 AI 기반 응용 프로그램을 구축하고자 합니다. 그러니 애플리케이션 목표와 모델에 대한 다양한 사용자들이 프롬프트를 "디자인" 할 수 있는 방법에 대해 생각해보겠습니다:
+이제, _본 주제_ 가 우리 스타트업의 [교육에 AI 혁신을 가져오기](https://educationblog.microsoft.com/2023/06/collaborating-to-bring-ai-innovation-to-education?WT.mc_id=academic-105485-koreyst)의 미션과 어떻게 관련되는지에 대해 이야기해보겠습니다. 우리는 _개인화된 학습_ (personalized learning)의 AI 기반 응용 프로그램을 구축하고자 합니다. 그러니 애플리케이션 목표와 모델에 대한 다양한 사용자들이 프롬프트를 "디자인" 할 수 있는 방법에 대해 생각해보겠습니다:
 
 - **관리자** 는 AI가 _커리큘럼 데이터를 분석하여 부족한 부분을 식별_ 하도록 요청할 수 있습니다. AI는 결과를 요약하거나 코드로 시각화할 수 있습니다.
 - **교육자** 는 _대상 그룹과 주제에 대한 레슨 계획을 생성_ 하도록 AI에게 요청할 수 있습니다. AI는 지정된 형식으로 개인화된 계획을 작성할 수 있습니다.
@@ -270,7 +270,7 @@ response = openai.chat.completions.create(
 
 프롬프트 템플릿은 필요에 따라 저장하고 재사용할 수 있는 *프롬프트를 위한 미리 정의된 레시피*입니다. 가장 간단한 형태에서는 [OpenAI의 예시](https://platform.openai.com/examples?WT.mc_id=academic-105485-koreyst)와 같이 상호작용 프롬프트 구성 요소(사용자 및 시스템 메시지)와 API 기반 요청 형식을 모두 제공하여 재사용을 지원합니다.
 
-[LangChain의 예시](https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/?WT.mc_id=academic-105485-koreyst)와 같이 더 복잡한 형태에서는 _플레이스홀더_ 를 포함하여 다양한 소스(사용자 입력, 시스템 컨텍스트, 외부 데이터 소스 등)의 데이터로 교체하여 동적으로 프롬프트를 생성할 수 있습니다. 이를 통해 규모에 맞게 일관된 사용자 경험을 **프로그래밍 방식**으로 구현할 수 있는 재사용 가능한 프롬프트 라이브러리를 만들 수 있습니다.
+[LangChain의 예시](https://python.langchain.com/docs/concepts/prompt_templates/?WT.mc_id=academic-105485-koreyst)와 같이 더 복잡한 형태에서는 _플레이스홀더_ 를 포함하여 다양한 소스(사용자 입력, 시스템 컨텍스트, 외부 데이터 소스 등)의 데이터로 교체하여 동적으로 프롬프트를 생성할 수 있습니다. 이를 통해 규모에 맞게 일관된 사용자 경험을 **프로그래밍 방식**으로 구현할 수 있는 재사용 가능한 프롬프트 라이브러리를 만들 수 있습니다.
 
 마지막으로, 템플릿의 실제 가치는 이제 프롬프트 템플릿이 응용 프로그램별 컨텍스트나 응용 프로그램 특정 예시를 반영하여 응답을 더 관련성 있고 정확하게 만드는 _프롬프트 라이브러리_ 를 생성하고 게시할 수 있는 능력에 있습니다. [Prompts For Edu](https://github.com/microsoft/prompts-for-edu?WT.mc_id=academic-105485-koreyst) 저장소는 이 접근 방식의 훌륭한 예로, 교육 분야에 대한 프롬프트 라이브러리를 선별하여 수업 계획, 커리큘럼 설계, 학생 지도 등과 같은 주요 목표에 중점을 둡니다.
 
